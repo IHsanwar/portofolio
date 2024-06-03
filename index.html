@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="assets/user-modified.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar" >
+        <h2><a href="index.html">Portofolio</a></h2>
+        <div class="nav-links">
+            <a href="#profiles">Profile</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    
+
+    <div class="profile-container" >
+        
+        
+        <div class="maintext">
+            <p>Hello my name is</p>
+            <h2>Ihsan Wardhana Ristiarto</h2>
+            <p>Software Developer</p>
+            <p>Good at:</p>
+            <ul>
+                <li>Python</li>
+                <li>PHP</li>
+                <li>HTML CSS</li>
+            </ul>
+        </div>
+        <button class="button-64" role="button"><span class="text">More About Me</span></button>
+        <div id="profiles"></div>
+    </div>
+    <div class="About">
+        <div class="abouttext">
+            
+            <p>SMK PLUS Pelita Nusantara student learning programming.</p>
+            <p>Learning programming mostly interested in backend, I also could use some framework like flask for python and laravel for PHP </p>
+        </div>
+    </div>
+    <div class="pro-section">
+        <div id="project"></div>
+        <h1 class="pro-ttl">PROJECTS </h1>
+        <div class="project-collection">
+            <div class="pro-carwash">
+                <img src="assets/Screenshot 2024-05-29 221243.png" width="300px">
+                <h3>Car Wash App Tool</h3>
+                <p>Aplikasi Pencatatan untuk mencatat pendapatan dan data pencucian mobil menggunakan bahasa Python</p>
+            </div>
+            <div class="pro-dasis">
+                <img src="assets/ss-dasis.png" width="300px">
+                <h3>Aplikasi Data Siswa</h3>
+                <p>Aplikasi Pencatatan data siswa menggunakan bahasa PHP</p>
+            </div>
+            <div class="dc-bot">
+                <img src="assets/dc.png     " width="300px">
+                <h3>Discord Bot</h3>
+                <p>Bot discord menggunakan python</p>
+            </div>
+            <div class="pro-web">
+                <img src="assets/porto.png" width="100px">
+                <h3>Website html css</h3>
+                <p>Website basic menggunakan HTML CSS dan Javascript</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+   <div class="Contact">
+    
+    <div id="contact"></div>
+        <div class="Contact-card">
+        <p>Email  : ihsanwar77@gmail.com</p>
+        <p>Phone  : +6281293080153</p>
+        <p><a href="https://github.com/IHsanwar" target="_blank" style="text-decoration: none;" ><button class="buttond" role="button">My Github ⇨</button> </a></p>
+        <p><a href="https://gitlab.com/IhsanWar810" target="_blank" style="text-decoration: none;"><button class="buttond" role="button">My Gitlab ⇨</button> </a></p>
+        </div>
+
+    <img src="assets/user-modified.png" width="180px">
+</div>
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+        <h3>Porto<span>folio</span></h3>
+
+        <p class="footer-links">
+            <a href="#">Home</a>
+            ·
+            <a href="#">About</a>
+            ·
+            <a href="#project">Projects</a>
+            ·
+            <a href="#contact">Contact</a>
+            
+        </p>
+
+        <p class="footer-company-name">Ihsan Wardhana Ristiarto © 2024</p>
+
+
+    </div>
+
+    <div class="footer-right">
+
+        <p>Contact Us</p>
+
+        <form action="#" method="post">
+
+            <input type="text" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button class="buttond" >Send</button>
+
+        </form>
+
+    </div>
+
+</footer>
+<script>
+    document.querySelector('.button-64').addEventListener('click', function() {
+    document.querySelector('.abouttext').scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+
+
+</script>
+</body>
+</html>
