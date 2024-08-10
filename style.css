@@ -12,7 +12,7 @@ html {
 
 body {
     font-family: "Poppins", sans-serif;
-    background-color: #000000;
+    background-color: #040d1f;
     color: #fcfcfc;
 }
 .navbar {
@@ -20,12 +20,13 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    display: table;
+    display: flex;
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color:rgb(1, 5, 27);
     z-index: 1000;
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 
 .navbar ul {
@@ -51,8 +52,11 @@ body {
     display: inline-block;
     padding: 15px 20px;
     position: relative;
+    
 }
-
+.nav-links{
+    margin-left: 40%;
+}
 .navbar a:after {
     background: transparent;
     bottom: 0;
@@ -66,7 +70,7 @@ body {
     width: 0;
 }
 
-.navbar a:hover:after {
+.nav-links a:hover:after {
     width: 100%;
     left: 0;
 }
@@ -98,10 +102,13 @@ body {
 .pro-ttl {
     color: white;
     text-align: center;
-    margin-top: 10px;
-    background-color: #333;
+    margin-top: 50px;
+    background-color: #040d1f;
     padding: 40px;
     border-radius: 20px;
+    border: #bcd5ff 2px ridge;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .pro-ttl:hover {
@@ -141,10 +148,14 @@ body {
 .About {
     
     font-size: large;
-    color: #000000;
+    color: #fff7f7;
     display: absolute;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #040d1f;
+    border: 2px dashed #bcd5ff ;
+    border-radius: 5px;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 
@@ -155,7 +166,7 @@ body {
 }
 .pp {
     color: #fff;
-    background-color: #555;
+    background-color: #000000;
     padding: 5px;
     border-radius: 5px;
     border: 3px solid #888;
@@ -219,7 +230,7 @@ body {
 }
 
 .Contact {
-    background-color: #111; /* Dark background */
+    background-color: #000000;
     margin: 5% 10%;
     border-radius: 10px; /* Slightly rounded corners */
     padding: 20px;
@@ -237,18 +248,23 @@ body {
     flex: 1; /* Allow card to take up remaining space */
     margin-right: 20px; /* Space between card and image */
 }
-
+.cnctbutton{
+    display: flex;
+    
+}
 .Contact-card p {
     font-size: 1em;
     margin: 10px 0;
-    color: #ffffff; /* Slightly lighter color for better readability */
+    color: #ffffff;
+    padding-left: 8px;
+    
 }
 
 .Contact img {
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
-Contact-card p {
+.Contact-card p {
     font-size: 1em;
     margin: 10px 0;
     color: #ccc;
@@ -291,6 +307,31 @@ Contact-card p {
     background-color: #444;
     border-color: #666;
     transform: translateY(0);
+}
+.socmed {
+
+    
+    margin-bottom: 20px; 
+    
+  }
+.socmed h3{
+    margin-top: 20px;
+}
+.socmed a {
+    display: flex; 
+    margin-top: 30px;
+    text-decoration: none; /* Remove underline from text */
+    color: inherit; /* Inherit the color from the parent element */
+    margin-right: 15px; /* Add some margin between icons/links */
+
+}
+
+.socmed a img {
+    margin-right: 5px; 
+    border-radius: 0;
+}
+.socmed a:hover{
+    color: #5383d3;
 }
 
 .buttond {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/user-modified.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -27,14 +27,8 @@
             <h2>Ihsan Wardhana Ristiarto</h2>
             <p>Software Developer</p>
             <p>Web Developer</p>
-            <p>API Development </p>
-            <p>I can:</p>
-            <ul>
-                <li>Python</li>
-                <li>PHP</li>
-                <li>HTML CSS</li>
-                <li>MYSQL and SQLite</li>
-            </ul>
+            <p>API Developer </p>
+
         </div>
         <div id="profiles"></div>
     </div>
@@ -67,31 +61,55 @@
             <div class="pro-web">
                 <img src="assets/porto.png" width="100px">
                 <h3>Website html css</h3>
-                <p>Website basic menggunakan HTML CSS dan Javascript</p>
+                <p>Website statis menggunakan HTML CSS dan Javascript</p>
             </div>
         </div>
     </div>
-    
-    <div class="Contact">
-        <div id="contact"></div>
-        
-        <div class="Contact-card">
-            <p><h2>Contact Me</h2></p>
-            <p>Email: ihsanwar77@gmail.com</p>
-            <p>Phone: +6281293080153</p>
-            <p><a href="assets/Portofolio Resume atau CV lah.pdf" target="_blank" style="text-decoration: none;"><button class="buttond" role="button">My CV</button></a></p>
-            <p><a href="https://github.com/IHsanwar" target="_blank" style="text-decoration: none;"><button class="buttond" role="button">My Github</button></a></p>
-            <p><a href="https://gitlab.com/IhsanWar810" target="_blank" style="text-decoration: none;"><button class="buttond" role="button">My Gitlab</button></a></p>
+    <div id="contact"></div>
+    <div class="Contact" style="display: flex; align-items: center;">
+    <div class="Contact-card" style="flex: 1;">
+        <p><h2>Contact Me</h2></p>
+        <p>Email: ihsanwar77@gmail.com</p>
+        <p>Phone: +6281293080153</p>
+        <div class="cnctbutton">
+            <p><a href="assets/Portofolio Resume atau CV lah.pdf" target="_blank" style="text-decoration: none;">
+                <button class="buttond" role="button">My CV</button></a></p>
+            <p><a href="https://github.com/IHsanwar" target="_blank" style="text-decoration: none;">
+                <button class="buttond" role="button">My Github</button></a></p>
+            <p><a href="https://gitlab.com/IhsanWar810" target="_blank" style="text-decoration: none;">
+                <button class="buttond" role="button">My Gitlab</button></a></p>
         </div>
-        <img src="assets/user-modified.png" width="180px">
+        
+        <div class="socmed">
+            <h3>My Social Media</h3>
+            <a href="https://www.instagram.com/ihwr08/" target="_blank">
+              <img src="assets/square-instagram-brands-solid.svg" width="30px" alt="Instagram">
+              Instagram
+            </a>
+            <a href="https://facebook.com/your-profile" target="_blank">
+              <img src="assets/square-facebook-brands-solid.svg" width="30px" alt="Facebook">
+              Facebook
+            </a>
+            <a href="https://twitter.com/your-username" target="_blank">
+              <img src="assets/twitter-brands-solid.svg" width="30px" alt="Twitter">
+              Twitter
+            </a>
+        </div>
     </div>
+
+
+
+    <div style="flex: 0;">
+        <img src="assets/user-modified.png" width="180px" alt="User Image">
+    </div>
+</div>
+
     
 </div>
 <footer class="footer-distributed">
 
     <div class="footer-left">
 
-        <h3>Porto<span>folio</span></h3>
 
         <p class="footer-links">
             <a href="#">Home</a>
@@ -110,16 +128,6 @@
     </div>
 
     <div class="footer-right">
-
-        <p>Contact Us</p>
-
-        <form action="#" method="post">
-
-            <input type="text" name="email" placeholder="Email">
-            <textarea name="message" placeholder="Message"></textarea>
-            <button class="buttond" >Send</button>
-
-        </form>
 
     </div>
 
